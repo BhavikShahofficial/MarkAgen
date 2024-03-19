@@ -376,7 +376,7 @@ html{
 
 .formImg{
     width: 55rem;
-    background-color: rgba(50 , 231 , 255 , 0.8);
+    background-color: black;
     padding: 5rem;
     opacity: 0.8;
     border-radius: 0.5rem;
