@@ -3,7 +3,7 @@
 window.onload = () => {
   setTimeout(() => {
     document.querySelector("body").classList.add("display");
-  }, 4000);
+  }, 1000);
 };
 
 // Navbar
