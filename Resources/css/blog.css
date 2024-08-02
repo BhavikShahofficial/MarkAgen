@@ -22,6 +22,15 @@ html{
     scroll-behavior: smooth;
 }
 
+::-webkit-scrollbar-thumb{
+    background-color: #32e7ff;
+    border-radius: 10px;
+}
+
+  ::-webkit-scrollbar {
+    width: 12px;
+}
+
                                         /*  Common styles End  */
                                         /*  Section-1 */
 

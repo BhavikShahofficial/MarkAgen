@@ -6,6 +6,15 @@
     box-sizing: border-box;
 }
 
+::-webkit-scrollbar-thumb{
+    background-color: #FF8551;
+    border-radius: 10px;
+}
+
+  ::-webkit-scrollbar {
+    width: 12px;
+}
+
 html{
     scroll-behavior: smooth;
 }
@@ -741,7 +750,7 @@ color: white;
     display: block;
     position: absolute;
     top: 26px;
-    right: 16px;
+    right: 35px;
     z-index: 999;
 }
 .text-content {
@@ -777,6 +786,10 @@ color: white;
 }
 
 @media (max-width: 541px){
+#nav .logo img {
+    width: 110px;
+    height: 70px;
+}
 
 #hero .heroText h3 {
     font-size: 25px;
@@ -793,7 +806,7 @@ color: white;
 }
 
 #service .serviceImg {
-    width: 100%;
+    width: 90%;
 }
 
 #service h3 {
@@ -834,6 +847,10 @@ color: white;
 #pricingPanel h6 {
     font-size: 16px;
     line-height: 25px;
+}
+
+.panel {
+    width: 100%;
 }
 
 #callToAction .parellex h3 {
